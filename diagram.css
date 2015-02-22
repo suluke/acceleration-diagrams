@@ -1,0 +1,37 @@
+.acceleration-diagram {
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  background-color: #ddd;
+  font-size: 0px;
+  padding: 10px; }
+  .acceleration-diagram .y-axis {
+    display: inline-block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    vertical-align: middle; }
+    .acceleration-diagram .y-axis:after {
+      position: absolute;
+      display: inline-block;
+      content: '';
+      width: 1px;
+      height: 100%;
+      top: 0px;
+      background-color: #000; }
+  .acceleration-diagram .x-axis {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    vertical-align: middle;
+    line-height: 0; }
+  .acceleration-diagram .x-segment {
+    position: relative;
+    display: inline-block;
+    background-color: transparent; }
+    .acceleration-diagram .x-segment .diagram-bar {
+      position: absolute;
+      width: 100%;
+      display: inline-block;
+      background-color: #ff7e00; }
